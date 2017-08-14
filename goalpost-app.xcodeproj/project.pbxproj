@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		364481BD1F426CED001EEA67 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364481BC1F426CED001EEA67 /* GoalCell.swift */; };
 		36564D2F1F41386900A788B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36564D2E1F41386900A788B3 /* AppDelegate.swift */; };
 		36564D311F41386900A788B3 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36564D301F41386900A788B3 /* GoalsVC.swift */; };
 		36564D341F41386900A788B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36564D321F41386900A788B3 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		364481BC1F426CED001EEA67 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		36564D2B1F41386800A788B3 /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36564D2E1F41386900A788B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36564D301F41386900A788B3 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		36564D441F41389C00A788B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				364481BC1F426CED001EEA67 /* GoalCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364481BD1F426CED001EEA67 /* GoalCell.swift in Sources */,
 				36564D311F41386900A788B3 /* GoalsVC.swift in Sources */,
 				36564D2F1F41386900A788B3 /* AppDelegate.swift in Sources */,
 				36564D371F41386900A788B3 /* goalpost_app.xcdatamodeld in Sources */,
@@ -350,6 +354,7 @@
 				36564D421F41386900A788B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
